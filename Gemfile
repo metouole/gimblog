@@ -12,6 +12,14 @@ gem 'rails', '~> 5.0.7'
 gem 'mysql2', '>= 0.3.18', '< 0.6.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
+
+gem 'bcrypt', '~> 3.1', '>= 3.1.12'
+
+gem 'rack-cors', '~> 0.4.0'
+
+gem 'jwt', '~> 2.1'
+
+gem 'simple_command', '~> 0.0.9'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
