@@ -12,7 +12,6 @@ class AuthenticateUser
   #this is where the result gets returned
   def call
     JsonWebToken.encode(user_id: user.id) if user
-    render json: {auth_token: auth_token}, status: :ok
   end
 
   private
